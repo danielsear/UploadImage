@@ -1,0 +1,67 @@
+
+
+.list-cabecalho{
+  display: flex;
+  align-items: center;
+ 
+  margin-top: .5rem;
+}
+.list-cabecalho h1{
+  margin: 0 1rem;
+}
+
+.list-cabecalho button{
+  height: 2rem;
+  border-radius: 1rem;
+  border: none;
+  transition: 1s;
+}
+.list-cabecalho button:hover{
+  color: #fff;
+  background: rgb(49, 45, 45);
+}
+.list-images{
+  display: flex;
+  flex-wrap: wrap;
+}
+.show-image  {
+  display: flex;
+}
+
+.show-image div {
+  border: .5rem solid #000;
+}
+
+
+
+.info-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-image div {
+  display: flex;
+  justify-content: flex-start;
+  border: none;
+
+  margin: .5rem;
+}
+
+.info-image div button{
+    background: red;
+    padding: .5rem;
+    border-radius: .5rem;
+    
+}
+
+.info-image div button:hover{
+  color: #fff;
+  
+}
+
+div p {
+  margin-right: 1rem;
+  text-decoration: underline;
+}
+
